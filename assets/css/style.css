@@ -91,3 +91,19 @@ box-sizing: border-box;
     #meeting{
         background-color: beige;
     }
+    .section-image{
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 70%;
+        border: dashed;
+        height: 100px;  
+    }
+    .section-text{
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 29%;
+        border: dashed;
+        height: 100px;  
+    }
