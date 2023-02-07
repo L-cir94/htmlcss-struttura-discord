@@ -3,5 +3,91 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-body{
-}
+*{
+    margin: 0;
+    padding: ;
+    box-sizing: border-box;
+    }
+    .container{
+     width: 70%;  
+     max-width: 1140px;
+     margin: auto;
+    }
+    header{
+        text-align: center;
+        flex-direction:row-reverse;
+        background-color: aquamarine;
+    }
+    .d-flex{
+        display: flex;
+        /* "flex-direction:row-reverse;" fai un'altra classe dopo container con dentro questo per invertire i contenitori */
+    }
+    .s{
+    flex-direction:row-reverse;
+    display: flex;
+    }
+    .logo,
+    .login{
+        flex-grow: 1;/* controlla cosa hai fatto te invece di flex-grow */
+        background-color: rgb(216, 216, 228);
+    }
+    .text{
+        flex-grow: 4;
+        background-color: rgb(216, 216, 228);
+    }
+    .logo,
+    .login,
+    .text{
+        margin: 25px 0 25px 0;
+        border: dashed;
+    }
+    .debug .jumbotron{
+        background-color: brown;
+        height: 150px;
+    }
+    .debug .jumbotext{
+        background-color: green;
+        height: 100px;
+    }
+    .debug .reliable{
+        background-color: blueviolet;
+        height: 150px;
+    }
+    .degub .reliabletext{
+        background-color: rgb(146, 255, 146);
+        height: 500px;  
+    }
+    .jumbotron{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .jumbotext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 70%;
+    }
+    .reliable{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .reliabletext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 85%;
+        border: dashed;
+        height: 100px;
+    }
+    .degub, section{
+    height: 200px;
+    }
+    #meeting{
+        background-color: beige;
+    }
